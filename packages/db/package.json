@@ -1,0 +1,12 @@
+{
+  "name": "pkg-db",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "migrate:dev": "prisma migrate dev"
+  },
+  "devDependencies": {
+    "prisma": "^4.0.0",
+    "@prisma/client": "^4.0.0"
+  }
+}
